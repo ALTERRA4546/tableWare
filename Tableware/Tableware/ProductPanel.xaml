@@ -1,0 +1,98 @@
+﻿<Window x:Class="Tableware.ProductPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tableware"
+        mc:Ignorable="d"
+        Title="Tableware" Height="800" Width="1000" Closing="Window_Closing" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="ListViewItem">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ProductQuantityInStock}" Value="0">
+                    <Setter Property="Background" Value="LightGray"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <StackPanel>
+            <Grid>
+                <Rectangle Fill="#76E383" Height="35"/>
+                <WrapPanel Margin="10,0,0,0">
+                    <Image Source="Image\logo.png" Width="35" Height="35" HorizontalAlignment="Left"/>
+                    <Label Content="ООО Посуда" HorizontalAlignment="Left" FontSize="16" FontFamily="Comic Sans Ms"/>
+                </WrapPanel>
+                <WrapPanel HorizontalAlignment="Right" Margin="0,0,10,0">
+                    <Label x:Name="FIO" Content="Гость" Margin="0,0,10,0" HorizontalAlignment="Center" FontSize="16" FontFamily="Comic Sans Ms"/>
+                    <Label x:Name="Exit" Content="Выйти" HorizontalAlignment="Center" FontSize="16" FontFamily="Comic Sans Ms" MouseLeftButtonDown="Exit_MouseLeftButtonDown"/>
+                </WrapPanel>
+            </Grid>
+            <StackPanel HorizontalAlignment="Center" Margin="10">
+                <Grid>
+                    <WrapPanel Margin="0,0,0,10">
+                        <Label Content="Найти: " Margin="0,0,10,0" FontSize="16" FontFamily="Comic Sans Ms"/>
+                        <TextBox x:Name="Find" Width="250" Margin="0,0,10,0" FontSize="16" FontFamily="Comic Sans Ms" TextChanged="Find_TextChanged"/>
+                        <Label Content="Производитель: " Margin="0,0,10,0" FontSize="16" FontFamily="Comic Sans Ms"/>
+                        <ComboBox x:Name="Manufacturer" Width="250" Margin="0,0,10,0" FontSize="16" FontFamily="Comic Sans Ms" SelectionChanged="Manufacturer_SelectionChanged"/>
+                    </WrapPanel>
+                    <Label x:Name="CounterProduct" Content="0/0" HorizontalAlignment="Right" Margin="0,0,10,0" FontSize="16" FontFamily="Comic Sans Ms"/>
+                </Grid>
+                <ListView x:Name="ProductList" Height="600" d:ItemsSource="{d:SampleData ItemCount=5}" Width="960" MouseDoubleClick="ProductList_MouseDoubleClick">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Width="0">
+                                <Label Content="Код товара"/>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding ProductArticleNumber}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="200">
+                                <Label Content="Изображение" Margin="0,0,10,0" HorizontalAlignment="Center" FontSize="14" FontFamily="Comic Sans Ms"/>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Image Source="{Binding ProductPhoto}"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="500">
+                                <Label Content="Товар" Margin="0,0,10,0" HorizontalAlignment="Center" FontSize="14" FontFamily="Comic Sans Ms"/>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <Label Content="{Binding ProductName}" Margin="0,0,10,0" FontSize="14" FontFamily="Comic Sans Ms"/>
+                                            <Label Content="{Binding ProductDescription}" Margin="0,0,10,0" FontSize="14" FontFamily="Comic Sans Ms"/>
+                                            <WrapPanel>
+                                                <Label Content="Производитель: " Margin="0,0,10,0" FontSize="14" FontFamily="Comic Sans Ms"/>
+                                                <Label Content="{Binding Manufacturer1}" Margin="0,0,10,0" FontSize="14" FontFamily="Comic Sans Ms"/>
+                                            </WrapPanel>
+                                            <WrapPanel>
+                                                <Label Content="Цена: " Margin="0,0,10,0" HorizontalAlignment="Center" FontSize="14" FontFamily="Comic Sans Ms"/>
+                                                <Label Content="{Binding ProductCost}" Margin="0,0,10,0" HorizontalAlignment="Center" FontSize="14" FontFamily="Comic Sans Ms"/>
+                                            </WrapPanel>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="200">
+                                <Label Content="наличние на складе" Margin="0,0,10,0" HorizontalAlignment="Center" FontSize="14" FontFamily="Comic Sans Ms"/>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding ProductQuantityInStock}" Margin="0,0,10,0" HorizontalAlignment="Center" FontSize="14" FontFamily="Comic Sans Ms"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <WrapPanel Margin="0,10,0,0">
+                    <Button x:Name="Add" Content="Добавить" Margin="0,0,10,0" Background="#76E383" FontFamily="Comic Sans MS" Width="150" Click="Add_Click"/>
+                    <Button x:Name="Remove" Content="Удалить" Margin="0,0,0,0" Background="#76E383" FontFamily="Comic Sans MS" Width="150" Click="Remove_Click"/>
+                </WrapPanel>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>

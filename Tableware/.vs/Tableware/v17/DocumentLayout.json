@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\King Night\\source\\repos\\Tableware\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|c:\\users\\king night\\source\\repos\\tableware\\tableware\\addchangeproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|solutionrelative:tableware\\addchangeproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|c:\\users\\king night\\source\\repos\\tableware\\tableware\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|solutionrelative:tableware\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|c:\\users\\king night\\source\\repos\\tableware\\tableware\\productpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|solutionrelative:tableware\\productpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|c:\\users\\king night\\source\\repos\\tableware\\tableware\\productpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|solutionrelative:tableware\\productpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|c:\\users\\king night\\source\\repos\\tableware\\tableware\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|solutionrelative:tableware\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|c:\\users\\king night\\source\\repos\\tableware\\tableware\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{6F47BB0C-3530-4025-8B67-9C36F006D8FD}|Tableware\\Tableware.csproj|solutionrelative:tableware\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 463,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\ProductPanel.xaml",
+              "RelativeDocumentMoniker": "Tableware\\ProductPanel.xaml",
+              "ToolTip": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\ProductPanel.xaml",
+              "RelativeToolTip": "Tableware\\ProductPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-06T06:54:49.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\ProductPanel.xaml.cs",
+              "RelativeDocumentMoniker": "Tableware\\ProductPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\ProductPanel.xaml.cs",
+              "RelativeToolTip": "Tableware\\ProductPanel.xaml.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAQwB4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:31:26.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddChangeProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\AddChangeProduct.xaml.cs",
+              "RelativeDocumentMoniker": "Tableware\\AddChangeProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\AddChangeProduct.xaml.cs*",
+              "RelativeToolTip": "Tableware\\AddChangeProduct.xaml.cs*",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAIwIMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:32:46.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Authorization.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\Authorization.xaml.cs",
+              "RelativeDocumentMoniker": "Tableware\\Authorization.xaml.cs",
+              "ToolTip": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\Authorization.xaml.cs",
+              "RelativeToolTip": "Tableware\\Authorization.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAewDQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:45:36.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Authorization.xaml",
+              "DocumentMoniker": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\Authorization.xaml",
+              "RelativeDocumentMoniker": "Tableware\\Authorization.xaml",
+              "ToolTip": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\Authorization.xaml",
+              "RelativeToolTip": "Tableware\\Authorization.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-06T06:41:15.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\Model1.edmx",
+              "RelativeDocumentMoniker": "Tableware\\Model1.edmx",
+              "ToolTip": "C:\\Users\\King Night\\source\\repos\\Tableware\\Tableware\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Tableware\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-06T06:46:31.903Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 463,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

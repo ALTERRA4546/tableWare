@@ -1,0 +1,64 @@
+﻿<Window x:Class="Tableware.AddChangeProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tableware"
+        mc:Ignorable="d"
+        Title="Tableware" Height="670" Width="600" Loaded="Window_Loaded" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel>
+            <Grid>
+                <Rectangle Fill="#76E383" Height="35"/>
+                <WrapPanel Margin="10,0,0,0">
+                    <Image Source="Image\logo.png" Width="35" Height="35" HorizontalAlignment="Left"/>
+                    <Label Content="ООО Посуда" HorizontalAlignment="Left" FontSize="16" FontFamily="Comic Sans Ms"/>
+                </WrapPanel>
+                <Label Content="Продукция" Margin="0,0,10,0" HorizontalAlignment="Right" FontSize="16" FontFamily="Comic Sans Ms"/>
+            </Grid>
+            <StackPanel HorizontalAlignment="Center" Margin="0,10,0,0">
+                <Grid Margin="0,0,0,10">
+                    <Label Content="Код" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                    <TextBox x:Name="IdProduct" Margin="180,0,0,0" Width="250" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                </Grid>
+                <Grid Margin="0,0,0,10">
+                    <Label Content="Наименование" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                    <TextBox x:Name="ProductName" Margin="180,0,0,0" Width="250" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                </Grid>
+                <Grid Margin="0,0,0,10">
+                    <Label Content="Категория" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                    <ComboBox x:Name="Category" Margin="180,0,0,0" Width="250" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                </Grid>
+                <Grid Margin="0,0,0,10">
+                    <Label Content="Кол-во" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                    <TextBox x:Name="ProductCount" Margin="180,0,0,0" Width="250" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                </Grid>
+                <Grid Margin="0,0,0,10">
+                    <Label Content="Ед. измер." HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                    <ComboBox x:Name="MeasurementUnit" Margin="180,0,0,0" Width="250" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                </Grid>
+                <Grid Margin="0,0,0,10">
+                    <Label Content="Поставщик" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                    <ComboBox x:Name="Supplay" Margin="180,0,0,0" Width="250" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                </Grid>
+                <Grid Margin="0,0,0,10">
+                    <Label Content="Стоимость" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                    <TextBox x:Name="Cost" Margin="180,0,0,0" Width="250" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                </Grid>
+                <Grid Margin="0,0,0,10">
+                    <Label Content="Изображение" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                    <StackPanel>
+                        <Image x:Name="Photo" Width="80" Height="80" HorizontalAlignment="Center"/>
+                        <Button x:Name="LoadPhoto" Content="Загрузить" Margin="80,0,0,10" Background="#76E383" FontFamily="Comic Sans MS" Width="150" Click="LoadPhoto_Click"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Margin="0,0,0,10">
+                    <Label Content="Описание" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                    <TextBox x:Name="Discription" Margin="180,0,0,0" TextWrapping="Wrap" Height="150" Width="250" HorizontalAlignment="Left" FontSize="14" FontFamily="Comic Sans Ms"/>
+                </Grid>
+            </StackPanel>
+            <Button x:Name="Save" Content="Сохранить" Margin="0,0,0,10" Background="#76E383" FontFamily="Comic Sans MS" Width="350" Click="Save_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
